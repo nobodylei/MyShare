@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.rjwl.reginet.myshare.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:text="Hello World!"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_text_wechat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:text="文字 to weChat"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_img_wechat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:text="图片 to weChat"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btn_text_friend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:text="文字 to friend"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_img_friend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:text="图片 to friend"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
